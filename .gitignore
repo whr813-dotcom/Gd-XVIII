@@ -1,8 +1,38 @@
+# 日志和输出
 *.log
-*.tmp
-__pycache__/
-*.pyc
-.vscode/
-.idea/
-*.o
-*.so
+*.out
+*.err
+
+# 量子化学输出
+*.wfn
+*.wfx
+*.fchk
+*.fch
+*.molden
+*.cube
+*.chk
+*.rwf
+*.scr
+*.int
+*.d2e
+*.nucl
+*.dens
+*.mo
+
+# 大文件
+*.dat
+*.bin
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.pkl
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+
+# 临时目录
+tmp/
+temp/
+scratch/
